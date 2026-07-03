@@ -1,22 +1,15 @@
 ---
 name: quant-research-task
-description: Retired question-oriented quantitative research workflow kept for compatibility with old quant-researcher or quant-research-task references. Do not use as the primary workflow for new work; use File Organization for project/folder routing and Exploration Task Workflow for question discovery, research direction finding, and evidence-backed next steps.
+description: Organize quantitative research tasks around clear research questions and reproducible project structure. Use when Codex needs to formulate quant research questions, build question roadmaps, create or clean up projects with questions/research/reports folders, create concrete project or subtask folders, write README/output notes, separate execute scripts from analyze scripts, or route raw data, processed data, notebooks, reports, and generated artifacts.
 metadata:
   author: wjs
-  last_update_time: "2026-07-03 21:00:13 HKT"
-  status: retired
+  last_update_time: "2026-07-03 21:00:04 HKT"
+  status: active
 ---
 
 # Quant Research Task
 
-Status: retired.
-
-This is the historical `quant-researcher` workflow. It is retained only as a compatibility reference for old quant research projects and references.
-
-For new work, use:
-
-- `../../fundamental/file-organization/SKILL.md` for project-level folder organization, research documents, project nodes, data, notebooks, outputs, and skills.
-- `../../fundamental/exploration-task-workflow/SKILL.md` for question discovery, uncertain research direction, assumption discovery, option comparison, and evidence-backed next steps.
+This is the renamed `quant-researcher` workflow.
 
 ## Core Principle
 
