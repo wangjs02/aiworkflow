@@ -33,8 +33,8 @@ of:
 | [`composite`](composite/) | High-level orchestration skills that route work across lower-level skills. | 1 active |
 | [`daily:info`](daily:info/) | Daily information and briefing workflows. | Empty placeholder |
 | [`fundamental`](fundamental/) | Core reusable primitives for planning, organization, code structure, research direction, and execution discipline. | 6 active |
-| [`invest:quant`](invest:quant/) | Quantitative investment research workflows and compatibility markers. | 1 retired |
-| [`research:work`](research:work/) | Research-note and evidence synthesis workflows. | 1 active |
+| [`invest:quant`](invest:quant/) | Quantitative investment research workflows. | 1 active |
+| [`research:work`](research:work/) | Research-note and evidence synthesis workflows. | 6 active |
 
 ## `composite`
 
@@ -71,13 +71,11 @@ execution, and long-running project control.
 
 ## `invest:quant`
 
-Use this category for investment and quantitative research workflows. Retired
-skills here are kept to document migration paths from older research structures
-to the current fundamental workflow.
+Use this category for investment and quantitative research workflows.
 
 | Skill | Status | Use When |
 | --- | --- | --- |
-| [`quant-research-task`](invest:quant/quant-research-task/SKILL.md) | `retired` | Compatibility only. For new work, use `file-organization` for project routing and `exploration-task-workflow` for research question discovery and evidence-backed next steps. |
+| [`quant-research-task`](invest:quant/quant-research-task/SKILL.md) | `active` | Organizing quantitative research tasks around clear research questions, question roadmaps, reproducible project folders, execute/analyze scripts, outputs, notebooks, reports, and generated artifacts. |
 
 ## `research:work`
 
@@ -86,7 +84,12 @@ notes, source collections, or first-pass synthesis.
 
 | Skill | Status | Use When |
 | --- | --- | --- |
-| [`quick-research`](research:work/systematic-critical-research/SKILL.md) | `active` | A user needs fast critical research, source collection, viewpoint comparison, concise Markdown synthesis, or a structured answer before deciding whether to continue into exploration or exploitation workflow. |
+| [`literature-review-deep`](research:work/literature-review-deep/SKILL.md) | `active` | A user needs a PhD-level deep literature review that maps papers, methods, venues, labs, paper relationships, trends, gaps, and linked references. |
+| [`literature-review-shallow`](research:work/literature-review-shallow/SKILL.md) | `active` | A user needs a fast paper-entry map, prerequisite keyword map, unfamiliar-domain paper reading guide, or SpeedyLearn-style shallow literature review. |
+| [`literature-download`](research:work/literature-download/SKILL.md) | `active` | A user asks to search, download, read, index, organize, compare, cite, or create notes for academic papers through the local deterministic PaperTool CLI. |
+| [`research-systematic-critical`](research:work/research-systematic-critical/SKILL.md) | `active` | A user needs quick evidence-backed research, source collection, viewpoint comparison, concise Markdown synthesis, tables with citations, or a saved research note. |
+| [`report-organization`](research:work/report-organization/SKILL.md) | `active` | A user asks to create, place, save, organize, or route Markdown reports and notes into date-based research or project folders. |
+| [`report-weekly`](research:work/report-weekly/SKILL.md) | `active` | A user provides draft notes and papers read and asks for a concise, formal, one-page weekly research update report in English Markdown. |
 
 ## Maintenance Rules
 
