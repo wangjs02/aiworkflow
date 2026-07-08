@@ -3,7 +3,7 @@ name: file-organization
 description: Organize project-level folders and natural-language workspace files for AI-assisted projects. Use when creating or reviewing a project structure, deciding where documents, requirements, task plans, data, notebooks, outputs, project skills, README.md, or AGENT.md should live, or preparing a workspace so agents and collaborators can work in it consistently.
 metadata:
   author: wjs
-  last_update_time: "2026-07-03 20:45:06 HKT"
+  last_update_time: "2026-07-08 16:44:15 HKT"
   status: active
 ---
 
@@ -108,7 +108,7 @@ Use `requirement.md` for the CRAFT requirement. Load `../craft-framework/SKILL.m
 
 Use the project `README.md` to explain the project objective, current state, important files, task map, outputs, and next steps.
 
-Use `tasks/` for task files. Each task should define input, output, constraints, actionable steps, deliverable checklist, evidence, and draft result.
+Use `tasks/` for task files. Each task should define input, output, constraints, detailed actionable steps, deliverable checklist, evidence, and draft result.
 
 ### `data/`
 

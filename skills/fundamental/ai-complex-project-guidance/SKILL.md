@@ -3,7 +3,7 @@ name: ai-complex-project-guidance
 description: Guide long-running or complicated AI work with strict planning, task decomposition, checklist evidence, single-task execution, draft accumulation, and non-negotiable completion standards. Use when a project is complex, multi-step, long-running, research-heavy, implementation-heavy, or likely to exceed one pass of agent work.
 metadata:
   author: wjs
-  last_update_time: "2026-07-03 20:45:06 HKT"
+  last_update_time: "2026-07-08 16:51:21 HKT"
   status: active
 ---
 
@@ -44,49 +44,9 @@ Create task files before starting execution. Each task must include:
 
 Split tasks as finely as possible. Prefer many small tasks over one broad task. Each task should be executable and reviewable on its own.
 
+This skill controls project start and execution discipline. For the actual task file format and writing standard, load `../exploitation-task-workflow/SKILL.md` and, for non-trivial tasks, its `references/task-file-writing-guide.md`.
+
 Later tasks may be revised after earlier tasks reveal new problems, evidence, or dependencies. Record the reason for any task revision.
-
-## Task File Template
-
-Use this structure for each task file:
-
-```markdown
-# Task: <name>
-
-## Input
-
-- 
-
-## Output
-
-- 
-
-## Constraints
-
-- 
-
-## Actionable Steps
-
-- [ ] Step 1:
-- [ ] Step 2:
-- [ ] Step 3:
-
-## Subtasks
-
-- [ ] Subtask:
-
-## Deliverable Checklist
-
-- [ ] Checklist item:
-  - Evidence:
-
-## Evidence Log
-
-- 
-
-## Draft Result
-
-```
 
 ## Checklist Discipline
 
